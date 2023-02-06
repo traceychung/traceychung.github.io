@@ -111,11 +111,19 @@ nav ul li {
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  /* height: 37.5rem;
+  width: 37.5rem; */
+  /* position: relative;
+  right: 150px; */
+  margin-top: 3rem;
+  margin-right: 5rem;
+  height: 20rem;
+  width: 20rem;
+
 }
 
 .bio {
+  margin-top: 3rem;
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
@@ -131,23 +139,6 @@ nav ul li {
   padding: 0.3rem 0;
 }
 /* Hero section ends */
-
-/* More about */
-.more-about {
-  background-color: var(--bg-color);
-  padding: 1rem 6rem;
-}
-
-.more-about h2 {
-  margin-bottom: var(--bottom-margin);
-  text-align: center;
-}
-
-.more-about p {
-  line-height: var(--line-height);
-  padding: 0.4rem;
-}
-/* More about ends */
 
 /* Skills section */
 .skills {
