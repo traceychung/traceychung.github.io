@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto&family=Silkscreen:wght@400;700&display=swap');
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #FFE6F7, #B9E0FF);
+}
+
+/* Variables */
+:root {
+  --font-family: "Roboto", sans-serif;
+  --font-family: 'Montserrat', sans-serif;
+  --font-family: 'Silkscreen', cursive;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #fcfcfc;
+  --primary-color: #6570d4;
+  --secondary-color: #db9aca;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+
+/* Navbar */
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: var(--bg-color);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+  font-family: Silkscreen;
+  font-style: var(--bolder-font);
+  color: var(--primary-color);
+}
+
+nav a {
+  color: var(--primary-color);
+  transition: var(--transition);
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+nav a:hover {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+nav ul {
+  display: flex;
+  gap: 1.9rem;
+}
+
+nav ul li {
+  font-weight: var(--bold-font);
+}
+
+/* About */
+#about {
+  padding: 200px 0;
+}
+
+.about-text {
+  text-align: left;
+  padding: 80px 0;
+}
+
+.header {
+  font-family: Silkscreen;
+  font-size: 70px;
+}
+
+.about-sub {
+  font-family: Montserrat;
+  font-size: 24px;
+  /* line-height: 1.5; */
+  /* display: inline-block; */
+  /* vertical-align: middle; */
+  text-align: left;
+  padding: 30px 0;
+}
+
+/* Skills section */
+/* #skills {
+  padding: 200px 0;
+} */
+
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.skill-header {
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 10rem;
+
+  /* width: 11.875rem;
+  height: 11.25rem; */
+}
+
+/* Projects */
+#projects {
+  padding: 200px 0;
+}
+
+
+.project-pic {
+  width: 25rem;
+  height: 15rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 18vw;
+}
+
+.card-title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: xx-large;
+  color: var(--primary-color)
+}
+
+.card-text {
+  font-family: Montserrat;
+  font-size: large;
+}
+
+.card-footer {
+  font-family: Montserrat;
+  font-size: medium;
+  color: white;
+  font-weight: 500;
+  background-color: #beb4debd;
+}

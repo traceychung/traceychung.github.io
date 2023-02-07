@@ -54,6 +54,10 @@ section {
 
 /* CSS Resets end */
 
+.mr-1 {
+    margin-right: 10px;
+}
+
 /* Navbar */
 nav {
   position: sticky;
@@ -117,8 +121,8 @@ nav ul li {
   right: 150px; */
   margin-top: 3rem;
   margin-right: 5rem;
-  height: 20rem;
-  width: 20rem;
+  height: 15rem;
+  width: 12rem;
 
 }
 
