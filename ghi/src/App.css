@@ -5,9 +5,15 @@
   background: linear-gradient(135deg, #FFE6F7, #B9E0FF);
 }
 
+button {
+  border-radius: 0.5rem;
+  padding: 0.313rem 0.938rem;
+  border: none;
+}
+
 .header {
   font-family: Silkscreen;
-  font-size: 70px;
+  font-size: 3.75rem;
 }
 
 /* Variables */
@@ -40,7 +46,7 @@ nav {
   justify-content: space-between;
   padding: 1rem 2rem;
   background-color: var(--bg-color);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.188rem 0.313rem rgba(0, 0, 0, 0.1);
 }
 
 nav h1 {
@@ -54,12 +60,18 @@ nav a {
   transition: var(--transition);
   text-decoration: none;
   font-family: Montserrat;
-  font-size: 20px;
-  padding: 5px;
+  font-size: 1.125rem;
+  padding: 0.313rem;
 }
-nav a:hover {
+
+nav a h1:hover {
   color: var(--secondary-color);
-  border-bottom: 2px solid var(--secondary-color);
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  color: var(--secondary-color);
+  border-bottom: 0.063rem solid var(--secondary-color);
 }
 
 nav ul {
@@ -72,34 +84,41 @@ nav ul li {
 }
 
 /* About */
+.TC {
+  animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-1.25rem);
+    }
+    50% {
+        transform: translateY(1.25rem);
+    }
+    100% {
+        transform: translateY(-1.25rem);
+    }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
 #about {
-  padding: 200px 0;
+  padding: 12.5rem 0;
 }
 
 .about-text {
   text-align: left;
-  padding: 80px 0;
+  padding: 4.375rem 0;
 }
 
 .about-sub {
   font-family: Montserrat;
-  font-size: 24px;
-  text-align: left;
-  padding: 30px 0;
+  font-size: 1.375rem;
+  padding: 1.875rem 0;
 }
 
 /* Skills section */
-.skills {
-  max-width: 68.75rem;
-  margin: auto;
-  text-align: center;
-  margin-top: 2.5rem;
-}
-
-.skill-header {
-  margin-bottom: 1rem;
-}
-
 .skills-wrapper img {
   padding: 1.25rem;
 }
@@ -108,15 +127,22 @@ nav ul li {
   width: 10rem;
 }
 
-/* Projects */
-#projects {
-  padding: 200px 0;
+.icon:hover {
+  transform: scale(1.5);
 }
 
+/* Projects */
+#projects {
+  padding: 12.5rem 0;
+}
 
 .project-pic {
   width: 25rem;
   height: 15rem;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card-img-top {
@@ -144,8 +170,7 @@ nav ul li {
   background-color: #beb4debd;
 }
 
-button {
-  border-radius: 8px;
-  padding: 5px 15px;
-  border: none;
+/* Connect */
+.connect-logo:hover {
+  transform: scale(1.15);
 }

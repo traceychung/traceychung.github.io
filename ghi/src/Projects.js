@@ -10,7 +10,7 @@ export default function Projects() {
         <div className='m-3'>
             <h1 className='header mb-3'> > Projects</h1>
             <CardGroup className='gap-4'>
-            <Card className='card-img'>
+            <Card className='card'>
             <a href="https://group-04-trip-tech.gitlab.io/wanderlust/" target="_blank" rel="noreferrer"><Card.Img variant="top" src={Wanderlust} /></a>
             <Card.Body>
                 <Card.Title className='card-title'>Wanderlust</Card.Title>
@@ -22,7 +22,7 @@ export default function Projects() {
                 <small>React | FastAPI | Python | JavaScript | Docker | PostgreSQL</small>
             </Card.Footer>
             </Card>
-            <Card>
+            <Card className='card'>
             <a href="https://gitlab.com/chungt/project-beta" target="_blank" rel="noreferrer"><Card.Img variant="top" src={CarCar} /></a>
             <Card.Body>
                 <Card.Title className='card-title'>Car Car</Card.Title>
@@ -34,7 +34,7 @@ export default function Projects() {
                 <small>React | Django | Python | JavaScript | Docker</small>
             </Card.Footer>
             </Card>
-            <Card>
+            <Card className='card'>
             <a href="https://gitlab.com/chungt/conference-go" target="_blank" rel="noreferrer"><Card.Img variant="top" src={ConfGo} /></a>
             <Card.Body>
                 <Card.Title className='card-title'>Conference Go!</Card.Title>

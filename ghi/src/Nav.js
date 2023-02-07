@@ -3,7 +3,7 @@ import TC_Resume from './images/TC_Resume.pdf'
 function Nav() {
   return (
     <nav>
-        <h1>TRACEY CHUNG</h1>
+        <a href="#about"><h1>TRACEY CHUNG</h1></a>
         <ul>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
