@@ -1,3 +1,5 @@
+import TC_Resume from './images/TC_Resume.pdf'
+
 function Nav() {
   return (
     <nav>
@@ -7,6 +9,9 @@ function Nav() {
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
+            <button>
+              <a href={TC_Resume} download>Resume</a>
+            </button>
         </ul>
     </nav>
   )

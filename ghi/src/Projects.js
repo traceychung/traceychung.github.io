@@ -19,7 +19,7 @@ export default function Projects() {
                 </Card.Text>
             </Card.Body>
             <Card.Footer className='card-footer'>
-                <text>React | FastAPI | Python | JavaScript | Docker | PostgreSQL</text>
+                <small>React | FastAPI | Python | JavaScript | Docker | PostgreSQL</small>
             </Card.Footer>
             </Card>
             <Card>
@@ -31,7 +31,7 @@ export default function Projects() {
                 </Card.Text>
             </Card.Body>
             <Card.Footer className='card-footer'>
-                <text>React | Django | Python | JavaScript | Docker</text>
+                <small>React | Django | Python | JavaScript | Docker</small>
             </Card.Footer>
             </Card>
             <Card>
@@ -43,7 +43,7 @@ export default function Projects() {
                 </Card.Text>
             </Card.Body>
             <Card.Footer className='card-footer'>
-                <text>React | Django | Python | JavaScript | Docker</text>
+                <small>React | Django | Python | JavaScript | Docker</small>
             </Card.Footer>
             </Card>
         </CardGroup>
