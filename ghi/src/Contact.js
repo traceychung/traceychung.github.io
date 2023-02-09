@@ -26,6 +26,17 @@ export default function Contact() {
                         className="connect-logo icon-card mb-5"
                     />
                     </a>
+                    <a href="mailto:tchung97@gmail.com">
+                    <img
+                        src="https://img.icons8.com/nolan/256/1A6DFF/C822FF/email-sign.png
+                        "
+                        width={100}
+                        height={100}
+                        alt="linkedin"
+                        loading="lazy"
+                        className="connect-logo icon-card mb-5"
+                    />
+                    </a>
                     </div>
                 </div>
                 </section>

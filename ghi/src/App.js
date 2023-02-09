@@ -1,6 +1,6 @@
 import './App.css';
 import About from './About';
-import Nav from './Nav';
+import Navi from './Nav';
 import Skills from './Skills';
 import Contact from './Contact';
 import Projects from './Projects';
@@ -8,7 +8,7 @@ import Projects from './Projects';
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Navi />
       <About />
       <Skills />
       <Projects />
