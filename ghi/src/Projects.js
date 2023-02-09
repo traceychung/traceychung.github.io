@@ -23,7 +23,7 @@ export default function Projects() {
             </Card.Footer>
             </Card>
             <Card className='card'>
-            <a href="https://gitlab.com/chungt/project-beta" target="_blank" rel="noreferrer"><Card.Img variant="top" src={CarCar} /></a>
+            <a href="https://github.com/traceychung/carcar" target="_blank" rel="noreferrer"><Card.Img variant="top" src={CarCar} /></a>
             <Card.Body>
                 <Card.Title className='card-title'>Car Car</Card.Title>
                 <Card.Text className='card-text'>
@@ -35,7 +35,7 @@ export default function Projects() {
             </Card.Footer>
             </Card>
             <Card className='card'>
-            <a href="https://gitlab.com/chungt/conference-go" target="_blank" rel="noreferrer"><Card.Img variant="top" src={ConfGo} /></a>
+            <a href="https://github.com/traceychung/conference_go" target="_blank" rel="noreferrer"><Card.Img variant="top" src={ConfGo} /></a>
             <Card.Body>
                 <Card.Title className='card-title'>Conference Go!</Card.Title>
                 <Card.Text className='card-text'>
